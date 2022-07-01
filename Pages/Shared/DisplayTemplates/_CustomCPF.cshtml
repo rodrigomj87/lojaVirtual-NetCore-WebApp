@@ -1,0 +1,5 @@
+﻿@model System.String
+
+<span id="@ViewData.ModelMetadata.PropertyName" name="@ViewData.ModelMetadata.PropertyName">
+    @($"{Model.Substring(0,3)}.{Model.Substring(3,3)}.{Model.Substring(6,3)}-{Model.Substring(9,2)}")
+</span>
